@@ -140,62 +140,48 @@
         </div>
     </main>
 
-
-
     <section>
-
-        <h2>Contacto</h2>
-
+        <h2 class="contacto-heading">Contacto</h2>
+        <!-- Formulario de contacto -->
+        <form class="formulario">
+            <fieldset>
+                <legend>Llena tus datos para establecer contacto.</legend>
+                <!-- Campos del formulario -->
+                <div class="contenedor-campos">
+                    <!-- Campo: Nombre -->
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu nombre">
+                    </div>
+                    <!-- Campo: Teléfono -->
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input class="input-text" type="tel" placeholder="Tu teléfono">
+                    </div>
+                    <!-- Campo: Correo electrónico -->
+                    <div class="campo">
+                        <label>Correo electrónico</label>
+                        <input class="input-text" type="email" placeholder="Tu correo electrónico">
+                    </div>
+                    <!-- Campo: Mensaje -->
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
+                </div>
+                <!-- Botón de enviar -->
+                <div class="alinear-derecha flex">
+                    <input class="boton" type="submit" value="Enviar">
+                    <input class="boton"  type="submit"  value="Contactar" >
+                </div>
+                
+            </fieldset> 
+        </form>
     </section>
 
-    <form>
-        <fieldset>
-            <legend>
-                LLENA TUS DATOS PARA ESTABLECER CONTACTO
-            </legend>
-
-            <div>
-                <label>
-                    Nombre
-                </label>
-                <input type="text" placeholder="Tu Nombre">
-                <!-- placeholder: lo que el usuario ve dentro del input -->
-            </div>
-
-            <div>
-                <label>
-                    Teléfono
-                </label>
-                <input type="tel" placeholder="Tu teléfono">
-            </div>
-
-            <div>
-                <label>
-                    Correo
-                </label>
-                <input type="email" placeholder="Tu correo">
-            </div>
-
-            <div>
-                <label>
-                    Mensaje
-                </label>
-
-                <textarea></textarea>
-            </div>
-
-            <div>
-                <input type="submit" value="Enviar">
-            </div>
-
-        </fieldset>
-    </form>
-
-    <footer>
-        <p>Todos los derechos reservados ©. Fernando Varguez Developer</p>
+    <footer class="footer">
+        <p>Todos los derechos reservados ©. Enrique Manaznilla Developer</p>
     </footer>
-
-
 
 </body>
 
